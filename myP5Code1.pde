@@ -23,7 +23,7 @@ draw = function(){
     
    drawScene();
 
-
+//my captions for each image
    if(keyPressed){
      if(key == 'l'){
        sceneImage = livingroomImage;   
@@ -33,7 +33,7 @@ draw = function(){
       sceneImage = caveSceneImage;
       sceneText = "Find Toodles?  [Press l for livingroom ]";
     } 
-   
+   //the letter chosen to go to each image
   if(key == 'b'){
     sceneImage = minnieboutiqueImage;
     sceneText = "try again :( [Press p for pool or o for outside (pick wisely)]";
@@ -48,7 +48,7 @@ if(key == 'o'){
 }
 if(key == 'k'){
   sceneImage = kitchenImage;
-  sceneText = "YOU FOUND TOODLES GOOD JOB!";
+  sceneText = "YOU FOUND TOODLES GOOD JOB! (hold down on mouse)";
 }
 }
 };
@@ -63,6 +63,19 @@ var drawScene = function(){
     textSize(20);
    
     text(sceneText, 10, 375);
+//emojis for the winner
+    if(mousePressed){
+      text("🎊", random(-100,600) , random(-100,500))
+    }
+    if(mousePressed){
+      text("🎉", random(-100,600) , random(-100,500))
+    }
+    if (mousePressed){
+      text("✨", random(-100,600) , random(-100,500))
+    }
+    if (mousePressed){
+      text("🥇", random(-100,600) , random(-100,500))
+    }
 };
 
 
