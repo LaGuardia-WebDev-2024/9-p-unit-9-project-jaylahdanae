@@ -3,7 +3,7 @@ setup = function() {
 };
 
 //Background Images
-var caveSceneImage = loadImage("https://static.wikia.nocookie.net/mickeyclub/images/3/3a/The_Mickey_Mouse_Clubhouse.jpg/revision/latest?cb=20200925184125");
+var caveSceneImage = loadImage("https://static.wikia.nocookie.net/disney/images/7/7f/Mickey_Mouse_Clubhouse_theme.png/revision/latest/scale-to-width-down/1200?cb=20180506175201");
 
 var livingroomImage = loadImage("https://s1.dmcdn.net/v/BSVxc1Rm-IPnC4f0q/x1080");
 
